@@ -21,4 +21,10 @@
 - Time / Space: O(n) / O(1)
 - Pitfall: don’t overwrite profit; use max()
 
+### Contains Duplicate (LC 217)
+- Trigger: check if any element appears more than once
+- Pattern: hash set for seen elements
+- Time / Space: O(n) / O(n)
+- Pitfall: iterating indices instead of values
+
 
