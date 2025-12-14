@@ -15,3 +15,10 @@
 - Space: O(1) for fixed alphabet
 - Pitfall: must check length mismatch early
 
+### Best Time to Buy and Sell Stock (LC 121)
+- Trigger: maximize profit with one buy before one sell
+- Pattern: track min-so-far + max diff
+- Time / Space: O(n) / O(1)
+- Pitfall: don’t overwrite profit; use max()
+
+
